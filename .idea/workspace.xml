@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4cd74794-2f07-4b7d-9ad7-7a3c9ab3b35a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/plateform.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/Contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/acceuil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/immobilier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/informatique.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/listProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/loisir.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/page1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/projets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/propos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/templates/vehicule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Myproduct/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/image_acceuill/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/image_acceuill/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/image_acceuill/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/Redmi_Note_11ProPlus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/Sans_titre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/Sans_titre_96Yi3J1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/Sans_titre_ROc01e6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/acier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/afriquia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/appartement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/audi-s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/berger-allemand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/betatec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/betatec1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/billet-sch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/bureaux-modernes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/charp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/charpente.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/chaud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/construction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/ferme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/iphone_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/iphone_12_pro_max.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/ocp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/ocp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/peugeot-308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/piano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/salamgaz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/samasung_galaxys21ultra.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/skako.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/tapis-roulante.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/tucson.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/tuyau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/tuyauterie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/villa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/images/volkswagen-tiguan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/backend/Myproduct/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/Myproduct/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/backend/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/Myproduct/models.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29zP7XwZIHrOMVJR5wYUR28xIO3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.settings">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="plateform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="plateform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="plateform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/backend/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cd74794-2f07-4b7d-9ad7-7a3c9ab3b35a" name="Changes" comment="" />
+      <created>1654112775137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654112775137</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
