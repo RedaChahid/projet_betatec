@@ -1,0 +1,172 @@
+{% extends 'acceuil.html' %}
+{% block title %}Page contact {% endblock %}
+{% block content%}
+
+<body background="/static/images/contact.png" id="image">
+<div class="container mt-3 mb-5">
+        <div class="jumbotron mt-5">
+
+        </div>
+    </div>
+  <footer class="footer">
+     <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="{% url 'Lois' %}">about us</a></li>
+                    <li><a href="{% url 'Immo' %}">our services</a></li>
+                    <li><a href="{% url 'Info' %}">affiliate program</a></li>
+                </ul>
+            </div>
+        </div>
+           <div class="row">
+            <div  class="col-mt-5 text-center">
+              <p style="color: white;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> by reda chahid <i class="icon-heart color-danger" aria-hidden="true"></i>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+     </div>
+  </footer>
+<div class="cont">
+Bd، Hassan II, imm. Q, n°6, hay Salama, 28820 MOHAMMEDIA<br>
+Tél.: 00 212 523 329 762  |  00 212 523 329 764<br>
+Fax : 00 212 523 329 766<br>
+GSM : 00 212 661 416 720<br>
+betatecindustrie@menara.ma<br>
+tahiri.betatec@gmail.com<br>
+
+Atelier
+Rte. principale N°1, Beni Mghit. Mohammedia
+</div>
+</body>
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-size: 50%;
+	font-family: 'Poppins', sans-serif;
+	background-size:cover;
+}
+header{text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    font-size: 35px;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+    margin-bottom: 150px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cont{
+    font-size:190%;
+    position:absolute;
+    top:71%;
+    left:62%;
+}
+
+ul{
+position:absolute;
+    top:38%;
+    left:31%;
+	list-style: none;
+}
+.footer{
+    position:absolute;
+    top:55%;
+    left:0%;
+    height:380px;
+    width:100%;
+	background-color: #24262b;
+    padding: 100px 100px;
+}
+.footer-col{
+    position:absolute;
+    top:25%;
+    left:10%;
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    position:absolute;
+
+    left:42%;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 110px;
+	font-weight: 5000;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+    position:absolute;
+    left:55 %;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+</style>
+{% endblock %}

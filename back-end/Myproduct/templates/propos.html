@@ -1,0 +1,153 @@
+{% extends 'acceuil.html' %}
+{% block title %}Page Loisir{% endblock %}
+{% block content%}
+<br>
+<center><i>BETATEC INDUSTRIE une entreprise à votre service</i></center>
+<br>
+<center> Qu'il s'agisse de pièces usinées, de pièces de chaudronnerie, de découpes ou autres composants techniques
+    industriels , BETATEC INDUSTRIE a la réponse !
+</center>
+<body>
+<div class="container">
+    <div class="circle"></div>
+    <h1>Tuyauterie</h1>
+    <p> BETATEC INDUSTRIE, intervient dans le domaine industriel, de la chimie, de l’agroalimentaire, des réseaux d’eau
+        potable et d'énergie. </p>
+</div>
+
+<style>
+
+    body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;}
+
+.container{
+    position:absolute;
+    top:40%;
+    left:8%;
+    trasform: translate (-30% ,-30%);
+    width:45%;
+    padding:2%;
+    background:#fff;
+    box-sizing:border-box;
+    box-radius:10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+
+}
+
+    .circle{
+
+        width:200px;
+        height:200px;
+        background-image:url('/static/images/tuyauterie.png');
+        background-size:100% 100%;
+        border-radius:50%;
+        float:left;
+        shape-outside:circle();
+        margin:30px;
+    }
+    .container1{
+    position:absolute;
+    top:87%;
+    left:53%;
+    trasform: translate (-30% ,-30%);
+    width:45%;
+    padding:2%;
+    background:#fff;
+    box-sizing:border-box;
+    box-radius:10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+
+}
+
+
+.circle1{
+
+        width:200px;
+        height:200px;
+        background-image:url('/static/images/charpente.jpg');
+        background-size:100% 100%;
+        border-radius:50%;
+        float:left;
+        shape-outside:circle();
+        margin:30px;
+    }
+
+    .container2{
+    position:absolute;
+    top:146%;
+    left:8%;
+    trasform: translate (-30% ,-30%);
+    width:45%;
+    padding:2%;
+    background:#fff;
+    box-sizing:border-box;
+    box-radius:10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+
+}
+
+    .circle2{
+
+        width:200px;
+        height:200px;
+        background-image:url('/static/images/acier.png');
+        background-size:100% 100%;
+        border-radius:50%;
+        float:left;
+        shape-outside:circle();
+        margin:30px;
+    }
+
+    .container3{
+    position:absolute;
+    top:193%;
+    left:53%;
+    trasform: translate (-30% ,-30%);
+    width:45%;
+    padding:2%;
+    background:#fff;
+    box-sizing:border-box;
+    box-radius:10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+
+}
+
+    .circle3{
+
+        width:200px;
+        height:200px;
+        background-image:url('/static/images/construction.jpg');
+        background-size:100% 100%;
+        border-radius:50%;
+        float:left;
+        shape-outside:circle();
+        margin:30px;
+    }
+</style>
+<div class="container1">
+    <div class="circle1"></div>
+    <h1>Charpente métallique </h1>
+    <p> BETATEC INDUSTRIE , fabrique des composants de charpente métallique pour l’industrie de la construction en acier.
+Nos conseillés vous accompagneront pour moduler et organiser au mieux vos bâtiments , et préparer la mise en place d'une construction métallique dont les avantages sont nombreux :
+ Solidité
+ Modularité
+ Rapidité dans l'exécution </p>
+</div>
+
+<div class="container2">
+    <div class="circle2"></div>
+    <h1>Acier </h1>
+    <p> BETATEC INDUSTRIE , dispose d'une équipe de soudeurs qualifiés , afin de pouvoir répondre à tous vos projets de chaudronnerie . </p>
+</div>
+
+<div class="container3">
+    <div class="circle3"></div>
+    <h1>Construction métallique Maroc </h1>
+    <p> Fabrication de pièces de tous poids et de toutes dimensions, adaptées à votre demande.  </p>
+</div>
+
+</body>
+
+{% endblock %}

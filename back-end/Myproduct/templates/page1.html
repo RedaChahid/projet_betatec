@@ -1,0 +1,38 @@
+{% extends 'acceuil.html' %}
+{% block title %}Page Accueil {% endblock %}
+{% block content%}
+<body background="/static/images/home.png" id="image">
+<div class="container mt-3 mb-5">
+        <div class="jumbotron mt-5">
+            <center>
+          <h1 class="display-4"><I>Bienvenue sur Betatec</I></h1>
+          <p style="color:black" class="lead" >Le professionnel de la Chaudronnerie industrielle</p>
+          <hr class="my-4">
+          <p style="color:black"> Bénéficiez de l'attention dont vous avez besoin de la part de professionnels qui sont leaders dans leurs domaines. !!</p>
+
+
+            </center>
+<script text="text/javascript">
+
+let image = document.getElementById('image');
+
+let images = ['/static/images/home.png','/static/images/betatec.png','/static/images/betatec1.png']
+
+setInterval(function(){
+
+    let random = Math.floor(Math.random() * 3);
+
+    image.background=images[random];
+
+},2900);
+
+</script>
+</body>
+<style>
+body{
+
+	font-family: 'Poppins', sans-serif;
+	background-size:cover;
+}
+</style>
+{% endblock %}
